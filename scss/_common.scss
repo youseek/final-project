@@ -1,0 +1,96 @@
+.side_paddings {
+  padding: 0 160px;
+}
+
+.header {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+  }
+
+  &__navs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+  }
+
+  .language__nav {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    &__item {
+      color: #FFF;
+      text-align: center;
+      font-size: $lang;
+      font-weight: 700;
+      letter-spacing: 1px;
+      padding: 5px 7px;
+      border-radius: 8px;
+      background: transparent;
+      transition: all 0.3s ease;
+
+      &--active{
+        background: $accent;
+      }
+      &:hover{
+        background: rgba(255, 255, 255, 0.20);
+      }
+    }
+    &__address{
+      all: unset;
+      color: #FFF;
+      text-align: right;
+      font-size: $text-normal;
+    }
+    &__number{
+      color: #FFF;
+      text-align: right;
+      font-size: $text-normal;
+      font-weight: 700;
+    }
+    &__facebook{
+      width: 24px;
+      height: 24px;
+      align-items: center;
+
+      &:hover{
+        path{
+          fill: $accent;
+          transition: all 0.3s ease;
+        }
+      }
+    }
+
+  }
+  .header__nav{
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+
+    &__item{
+      color: #FFF;
+      text-align: right;
+      font-size: $text-normal;
+      font-weight: 700;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 3px;
+
+      &--active{
+        color: $accent;
+        border-bottom-color: $accent;
+
+
+      }
+
+      &:hover{
+        border-color: #FFFFFF;
+        color: #FFFFFF;
+
+      }
+    }
+  }
+}

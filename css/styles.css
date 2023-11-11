@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+.side_paddings {
+  padding: 0 160px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.header__navs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+.header .language__nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header .language__nav__item {
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px 7px;
+  border-radius: 8px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.header .language__nav__item--active {
+  background: #F0145A;
+}
+.header .language__nav__item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.header .language__nav__address {
+  all: unset;
+  color: #FFF;
+  text-align: right;
+  font-size: 16px;
+}
+.header .language__nav__number {
+  color: #FFF;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header .language__nav__facebook {
+  width: 24px;
+  height: 24px;
+  align-items: center;
+}
+.header .language__nav__facebook:hover path {
+  fill: #F0145A;
+  transition: all 0.3s ease;
+}
+.header .header__nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+.header .header__nav__item {
+  color: #FFF;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+}
+.header .header__nav__item--active {
+  color: #F0145A;
+  border-bottom-color: #F0145A;
+}
+.header .header__nav__item:hover {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  font-family: Prompt, sans-serif;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.side_paddings {
+  padding: 0 160px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.header__navs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+.header .language__nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header .language__nav__item {
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 5px 7px;
+  border-radius: 8px;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+.header .language__nav__item--active {
+  background: #F0145A;
+}
+.header .language__nav__item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.header .language__nav__address {
+  all: unset;
+  color: #FFF;
+  text-align: right;
+  font-size: 16px;
+}
+.header .language__nav__number {
+  color: #FFF;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+}
+.header .language__nav__facebook {
+  width: 24px;
+  height: 24px;
+  align-items: center;
+}
+.header .language__nav__facebook:hover path {
+  fill: #F0145A;
+  transition: all 0.3s ease;
+}
+.header .header__nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+.header .header__nav__item {
+  color: #FFF;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+}
+.header .header__nav__item--active {
+  color: #F0145A;
+  border-bottom-color: #F0145A;
+}
+.header .header__nav__item:hover {
+  border-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+body {
+  background-color: #7A425E;
+}
+
+/*# sourceMappingURL=styles.css.map */
