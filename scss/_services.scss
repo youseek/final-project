@@ -1,0 +1,48 @@
+.services__bg{
+  background: $gradient-services;
+  border-radius: 0 0 12px 12px;
+  position: relative;
+
+  &:before, &:after {
+    content: '';
+    border-radius: 0 0 12px 12px;
+    height: 50px;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+
+  &:before {
+    background: #CACADB;
+    width: 98%;
+    bottom: -10px;
+    z-index: -1;
+  }
+
+  &:after {
+    background: #E7E7F2;
+    width: 96%;
+    bottom: -20px;
+    z-index: -2;
+  }
+}
+.services__text__wrapper__main{
+  display: none;
+}
+.trust-us__services{
+  margin-top: 60px;
+}
+.services-separator{
+  display: none;
+}
+
+
+//Services-entry-page
+
+.services__paddings{
+  padding: 60px 280px;
+}
+
+.recommended__title{
+
+}
