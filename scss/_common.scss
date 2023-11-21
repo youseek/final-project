@@ -126,9 +126,6 @@
   .header__wrapper {
     padding-top: 50px;
   }
-  footer {
-    padding: 30px 60px;
-  }
 }
 
 /*Header for tablet SD*/
@@ -149,6 +146,10 @@
 
       .header__nav__logo--tablet {
         display: block;
+
+        .logo-mobile {
+          display: none;
+        }
       }
 
       .header__nav--tablet {
@@ -181,14 +182,19 @@
       display: none;
     }
 
-    .header__wrapper {
-
-    }
-
     .header__nav__logo--tablet {
       display: block;
       padding: 0 15px;
       width: 100%;
+
+      .logo-mobile {
+        display: block;
+      }
+
+      .logo-tablet {
+        display: none;
+      }
+
     }
 
     .burger__menu {
@@ -311,6 +317,10 @@ footer {
     gap: 10px;
     align-items: center;
 
+    .footer__rights {
+      text-align: center;
+    }
+
     &__fb {
       &:hover {
 
@@ -342,6 +352,10 @@ footer {
     .footer__rights {
       display: none;
     }
+  }
+
+  @media only screen and (max-width: 1440px) {
+    padding: 30px 60px;
   }
 
   @media only screen and (max-width: 768px) {
@@ -407,9 +421,10 @@ footer {
 
     }
   }
-  @media only screen and (max-width: 375px){
 
+  @media only screen and (max-width: 375px) {
     padding: 30px;
+
 
     .footer__bottom {
       &__rights {
