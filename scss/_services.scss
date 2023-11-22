@@ -41,6 +41,10 @@
 
 
 //Services-entry-page
+.white-space {
+  height: 80px;
+  width: 100%;
+}
 
 .services__paddings {
   padding: 60px 280px;
@@ -52,7 +56,7 @@
 
 .services__page {
 
-  .services__page__wrapper {
+  &__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -111,6 +115,7 @@
 }
 
 .services__content {
+  padding-top: 0;
 
   &__divider {
     height: 4px;
@@ -189,10 +194,11 @@
 
 /*Tablet SD*/
 @media only screen and (max-width: 768px) {
-  footer {
+  .services-footer {
     .footer__top {
-      flex-direction: column;
-      margin-bottom: 21px;
+      max-width: 398px;
+      width: 100%;
+      margin: 0 auto 21px;
     }
 
     .footer__top__rights {
@@ -200,8 +206,8 @@
     }
 
     .footer__bottom {
-      justify-content: center;
-      margin-bottom: 30px;
+      max-width: 398px;
+      margin: 0 auto 30px;
     }
 
     .footer__services__rights {
@@ -210,6 +216,16 @@
       text-align: center;
       font-size: $text-normal;
       font-weight: 400;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .services-footer {
+    .footer__bottom {
+      .footer__rights {
+        display: none;
+      }
     }
   }
 }
@@ -243,16 +259,18 @@
   .services__paddings {
     padding: 60px 180px;
   }
+  .services__content {
+    padding-top: 0;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
   .services__paddings {
     padding: 60px 60px 30px;
   }
-}
-
-.footer__services__rights {
-  display: block;
+  .services__page {
+    padding-bottom: 0;
+  }
 }
 
 @media only screen and (max-width: 375px) {

@@ -4,68 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>contact</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-<header>
-    <nav>
-        <a href="../index.html"><img src="../img/logo.png" alt="logo"></a>
-        <a href="/pages/about-us.html">about us</a>
-        <a href="/pages/services.html">services</a>
-        <a href="/pages/team.html">team</a>
-        <a href="/pages/publications.html">publications</a>
-        <a href="/pages/contact.html">contact</a>
-    </nav>
-    <nav>
-        <a>УК</a>
-        <a>РУ</a>
-        <a>EN</a>
-        <address>Kyiv, Mechnikova str, 14/1</address>
-        <a href="tel:0800211927">0800 211 927</a>
-        <a>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-                <g clip-path="url(#clip0_22721_6715)">
-                    <path d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
-                          fill="#B3B3BA"/>
+<header class="header">
+    <div class="side_paddings header__wrapper">
+        <a class="header__nav__logo" href="../index.html">
+            <img src="/img/logoContacts-main.png" alt="logo">
+        </a>
+        <div class="header__navs">
+            <nav class="language__nav">
+                <div class="language__nav_wrapper">
+                    <a href="#" class="language__nav__item light">УК</a>
+                    <a href="#" class="language__nav__item light">РУ</a>
+                    <a href="#" class="language__nav__item language__nav__item--active light--active">EN</a>
+                </div>
+                <svg class="language__nav__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="7"
+                     viewBox="0 0 6 7" fill="none">
+                    <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+                </svg>
+                <address class="language__nav__address light">Kyiv, Mechnikova str, 14/1</address>
+                <svg class="language__nav__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="7"
+                     viewBox="0 0 6 7" fill="none">
+                    <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+                </svg>
+                <a class="language__nav__number light" href="tel:0800211927">0800 211 927</a>
+                <svg class="language__nav__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="7"
+                     viewBox="0 0 6 7" fill="none">
+                    <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+                </svg>
+                <a class="language__nav__facebook">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <g clip-path="url(#clip0_22721_6686)">
+                            <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
+                                  fill="#B3B3BA"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_22721_6686">
+                                <rect width="24" height="24" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </nav>
+            <nav class="header__nav">
+                <a class="header__nav__item light" href="/pages/about-us.html">about us</a>
+                <a class="header__nav__item light" href="/pages/services.html">services</a>
+                <a class="header__nav__item light" href="/pages/team.html">team</a>
+                <a class="header__nav__item light" href="/pages/publications.html">publications</a>
+                <a class="header__nav__item light--active" href="/pages/contact.html">contact</a>
+            </nav>
+        </div>
+        <nav class="language__nav language__nav--tablet">
+            <div class="language__nav_wrapper">
+                <a href="#" class="language__nav__item light">УК</a>
+                <a href="#" class="language__nav__item light">РУ</a>
+                <a href="#" class="language__nav__item light--active language__nav__item--active">EN</a>
+            </div>
+            <svg class="language__nav__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="7"
+                 viewBox="0 0 6 7" fill="none">
+                <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+            </svg>
+            <address class="language__nav__address light">Kyiv, Mechnikova str, 14/1</address>
+            <svg class="language__nav__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="7"
+                 viewBox="0 0 6 7" fill="none">
+                <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+            </svg>
+            <a class="language__nav__number light" href="tel:0800211927">0800 211 927</a>
+            <svg class="language__nav__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="7"
+                 viewBox="0 0 6 7" fill="none">
+                <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+            </svg>
+            <a class="language__nav__facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <g clip-path="url(#clip0_22721_6686)">
+                        <path d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
+                              fill="#B3B3BA"/>
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_22721_6686">
+                            <rect width="24" height="24" fill="white"/>
+                        </clipPath>
+                    </defs>
+                </svg>
+            </a>
+        </nav>
+        <a class="header__nav__logo header__nav__logo--tablet" href="../index.html">
+            <img src="../img/logoContacts-mob.png" alt="logo">
+        </a>
+        <nav class="header__nav header__nav--tablet">
+            <a class="header__nav__item light" href="/pages/about-us.html">about us</a>
+            <a class="header__nav__item light" href="/pages/services.html">services</a>
+            <a class="header__nav__item light" href="/pages/team.html">team</a>
+            <a class="header__nav__item light" href="/pages/publications.html">publications</a>
+            <a class="header__nav__item light--active" href="/pages/contact.html">contact</a>
+        </nav>
+        <!-- бургер-меню -->
+        <div class="burger__menu">
+            <div class="burger__menu__icon light">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                    <path d="M7 10.5H25" stroke="white" stroke-width="2"/>
+                    <path d="M7 16.5H25" stroke="white" stroke-width="2"/>
+                    <path d="M7 22.5H25" stroke="white" stroke-width="2"/>
+                </svg>
+            </div>
+            <nav class="mobile__menu">
+                <button class="mobile__menu__x">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M7 7L25 25" stroke="#EC6F5D" stroke-width="2"/>
+                        <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2"/>
+                    </svg>
+                </button>
+                <a href="#" class="mobile__menu__item">about us</a>
+                <a href="#" class="mobile__menu__item">послуги</a>
+                <a href="#" class="mobile__menu__item">команда</a>
+                <a href="#" class="mobile__menu__item">публікації</a>
+                <a href="#" class="mobile__menu__item">контакти</a>
+            </nav>
+        </div>
+        <!-- Кінець коду бургер-меню -->
+    </div>
+</header>
+<div class="spacer"></div>
+<section class="contact__section">
+    <div class="contact__section__wrapper">
+        <p class="contact__section__address light">Kyiv, <br>Mechnikova str, 14</p>
+        <hr class="contact__section__divider">
+        <a class="contact__section__phone light" href="tel:0800211927">0800 211 927</a>
+        <a class="contact__section__mail light" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+        <hr class="contact__section__divider">
+        <div class="contact__section__social">
+            <svg class="contact__section__social--fb" xmlns="http://www.w3.org/2000/svg" width="39" height="38"
+                 viewBox="0 0 39 38" fill="none">
+                <g clip-path="url(#clip0_22721_7949)">
+                    <path d="M38.5 19.1161C38.5 8.55857 29.9934 0 19.5 0C9.00658 0 0.5 8.55857 0.5 19.1161C0.5 28.6575 7.44803 36.5659 16.5312 38V24.6419H11.707V19.1161H16.5312V14.9046C16.5312 10.1136 19.3678 7.46723 23.7078 7.46723C25.7866 7.46723 27.9609 7.84059 27.9609 7.84059V12.545H25.5651C23.2048 12.545 22.4688 14.0185 22.4688 15.5302V19.1161H27.7383L26.8959 24.6419H22.4688V38C31.552 36.5659 38.5 28.6575 38.5 19.1161Z"
+                          fill="#24A3FF"/>
                 </g>
                 <defs>
-                    <clipPath id="clip0_22721_6715">
-                        <rect width="24" height="24" fill="white" transform="translate(0 0.5)"/>
+                    <clipPath id="clip0_22721_7949">
+                        <rect width="38" height="38" fill="white" transform="translate(0.5)"/>
                     </clipPath>
                 </defs>
             </svg>
-        </a>
-    </nav>
-</header>
-<section>
-    <p>Kyiv,  Mechnikova str, 14</p>
-    <a href="tel:0800211927">0800 211 927</a>
-    <a href="mailto:contact@forstudy.space">contact@forstudy.space</a>
-    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
-        <g clip-path="url(#clip0_22724_6600)">
-            <path d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z" fill="#F0145A"/>
-        </g>
-        <defs>
-            <clipPath id="clip0_22724_6600">
-                <rect width="38" height="38" fill="white"/>
-            </clipPath>
-        </defs>
-    </svg>
-    <p>Our page on facebook</p>
-    <form>
-        <h3>We would like to help you</h3>
-        <input placeholder="Name">
-        <input type="text" placeholder="Message">
-        <h4>How to answer you?</h4>
-        <input type="number" placeholder="Phone number">
-        <input type="email" placeholder="Email">
-        <input type="button" placeholder="Send message">
+            <p class="contact__section__social--text">Our page <br> on facebook</p>
+        </div>
+    </div>
+    <form class="contact__form">
+        <h3 class="contact__form__title">We would like to help you</h3>
+        <input class="contact__form__name" placeholder="Name">
+        <input class="contact__form__message" type="text" placeholder="Message">
+        <h4 class="contact__form__feedback">How to answer you?</h4>
+        <input class="contact__form__number" type="number" placeholder="Phone number">
+        <input class="contact__form__mail" type="email" placeholder="Email">
+        <button class="contact__form__button">Send message</button>
     </form>
 </section>
+<div class="spacer"></div>
 <footer>
-    <nav>
-        <address>Kyiv, Mechnikova str, 14/1</address>
-        <a>On map</a>
-        <a>
+    <hr class="separator">
+    <nav class="footer__top">
+        <div class="footer__top__wrapper">
+            <address class="footer__top__address">Kyiv, Mechnikova str, 14/1</address>
+            <svg class="footer__top__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+                 fill="none">
+                <circle cx="3" cy="3" r="3" fill="#B3B3BA"/>
+            </svg>
+            <a href="#" class="footer__top__map">On map</a>
+        </div>
+        <p class="footer__top__rights">© 2021 HLEGAL Law company, LLC</p>
+    </nav>
+    <nav class="footer__bottom">
+        <a href="#" class="footer__bottom__fb">
             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none">
                 <g clip-path="url(#clip0_22721_8205)">
                     <path d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
@@ -78,10 +187,18 @@
                 </defs>
             </svg>
         </a>
-        <a href="tel:0800211927">0800 211 927</a>
-        <a href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+        <svg class="footer__bottom__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+             fill="none">
+            <circle cx="3" cy="3" r="3" fill="#B3B3BA"/>
+        </svg>
+        <a class="footer__bottom__number" href="tel:0800211927">0800 211 927</a>
+        <svg class="footer__bottom__dot" xmlns="http://www.w3.org/2000/svg" width="6" height="6" viewBox="0 0 6 6"
+             fill="none">
+            <circle cx="3" cy="3" r="3" fill="#B3B3BA"/>
+        </svg>
+        <a class="footer__bottom__mail" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+        <p class="footer__rights">© 2021 HLEGAL Law company, LLC</p>
     </nav>
-    <span>© 2021 HLEGAL Law company, LLC</span>
 </footer>
 </body>
 </html>

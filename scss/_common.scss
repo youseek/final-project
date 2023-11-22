@@ -21,7 +21,6 @@
     .header__nav__logo--tablet {
       display: none;
     }
-
   }
 
   &__navs {
@@ -51,6 +50,23 @@
       background: transparent;
       transition: all 0.3s ease;
 
+      &.light {
+        color: $grey-text;
+
+        &:hover {
+          background: $grey-bg;
+        }
+
+        &--active {
+          color: $white;
+
+          &:hover {
+            background: $grey-bg;
+            color: $grey-text;
+          }
+        }
+      }
+
       &--active {
         background: $accent;
       }
@@ -65,6 +81,11 @@
       color: #FFF;
       text-align: right;
       font-size: $text-normal;
+
+      &.light {
+        color: $grey-text;
+      }
+
     }
 
     &__number {
@@ -72,6 +93,10 @@
       text-align: right;
       font-size: $text-normal;
       font-weight: 700;
+
+      &.light {
+        color: $grey-text;
+      }
     }
 
     &__facebook {
@@ -104,6 +129,25 @@
       font-weight: 700;
       border-bottom: 2px solid transparent;
       padding-bottom: 3px;
+
+      &.light {
+        color: $active-regular;
+
+        &:hover {
+          color: $active-regular;
+          border-bottom-color: $active-regular;
+        }
+
+        &--active {
+          color: $accent;
+          border-bottom-color: $accent;
+
+          &:hover {
+            color: $active-regular;
+            border-bottom-color: $active-regular;
+          }
+        }
+      }
 
       &--active {
         color: $accent;
@@ -205,6 +249,14 @@
 
       &__icon {
         fill: $grey-separator;
+
+        &.light{
+          svg{
+            path{
+              stroke:#323264;
+            }
+          }
+        }
       }
 
       .mobile__menu {
